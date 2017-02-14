@@ -66,7 +66,7 @@ print(text)
 
 message = MIMEText(text, 'html')
 message['From'] = 'Automato <projekt_smog@wp.pl>'
-message['To'] = 'klaudia.kosiek@gmail.com'
+message['To'] = 'email'
 message['Subject'] = 'Ostrzeżenie'
 
 smtp = smtplib.SMTP_SSL('smtp.wp.pl', 465)
